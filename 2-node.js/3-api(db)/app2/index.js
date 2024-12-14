@@ -1,6 +1,7 @@
 const express = require("express")
 const app = express()
 const port = 8080
+const cors = require('cors')
 
 // Backend API Documentation
 const readme = `
@@ -21,6 +22,17 @@ app.get("/", (_req, res) => {
 
 // Backend API Routes
 // URI : 機能が付いているURL
+// 一部のOriginを許可する
+// app.use(cors({
+//   origin: 'http://localhost:3000',
+//   methos: ['GET', 'POST', 'PUT', 'DELETE', 'FETCH'],
+//   allowedHeaders: ['Content-Type', 'Authorization'],
+//   credentials: true
+// }))
+
+// 全てのOriginを許可する
+app.use(cors())
+
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
