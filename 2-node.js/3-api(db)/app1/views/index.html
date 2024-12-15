@@ -7,6 +7,15 @@
 </head>
 <body>
   <h1>User List</h1>
+  <!-- menu -->
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/create">Create User</a></li>
+    <li><a href="/update">Update User</a></li>
+    <li><a href="/delete">Delete User</a></li>
+    <li><a href="/login">Login</a></li>
+  </ul>
+
   <ul id="userList"></ul>
 
   <script>
@@ -16,7 +25,7 @@
       const userList = document.getElementById("userList");
       users.forEach((user) => {
         const li = document.createElement("li");
-        li.innerHTML = `<a href="/user/${user.userId}">${user.name}</a>`
+        li.innerHTML = `<a href="/user/${user.userId}">${user.userId}</a>`
         userList.appendChild(li);
       });
     });
