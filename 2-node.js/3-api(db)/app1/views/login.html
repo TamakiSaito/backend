@@ -34,7 +34,7 @@
         const userId = document.getElementById("userId").value
         const password = document.getElementById("password").value
 
-        fetch("http:localhost:8080/users")
+        fetch("http://localhost:8080/users")
         .then((res) => res.json())
         .then((users) => {
           const user = user.find((user) => user.userId === userId)

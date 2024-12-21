@@ -23,9 +23,9 @@
   </form>
 
   <script>
-    document.getElementById("deleteFrom").addEventListener("submit", (e) => {
+    document.getElementById("deleteForm").addEventListener("submit", (e) => {
       const userId = document.getElementById("userId").value
-      fetch(`http:localhost:8080/users/delete/${userId}`, {
+      fetch(`http://localhost:8080/users/delete/${userId}`, {
         method: "DELETE",
       })
       .then((res) => res.json())
