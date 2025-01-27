@@ -1,0 +1,20 @@
+# 初期設定
+$ npm init
+# folder name: app1 -> all skip 
+# app1 フォルダを作成
+# package.json -> app1 へ移動
+$ npm i -D nodemon // nodemonはnodeをモニタリングしながら実行する
+
+# nodemon 実行方法
+# package.jsonにstartを追加
+"scripts": {
+  "start": "nodemon index.js"
+}
+$ npm start
+# ターミナル上でindex.jsが確認できる
+
+# csvデータ -> jsonタイプへ変換する(jsonタイプとしてDBの値として与える為に)
+$ npm i convert-csv-to-json
+
+# Apollo Server
+$ npm i graphql apollo-server

@@ -1,0 +1,51 @@
+id,first_name,last_name,sex,boold_type_serve_years,role,team,from
+1,Alex,Davidson,male,0,2,developer,2,California
+2,Alex,Johnson,female,1,15,developer,3,Ohio
+3,Olivia,Thomas,female,1,19,designer,3,Arizona
+4,Sophia,Johnson,female,2,11,developer,2,California
+5,Alex,Jackson,male,2,19,planner,1,Florida
+6,Sophia,Jackson,male,3,20,designer,3,New York
+7,Ava,Thomas,female,1,2,planner,1,California
+8,Amelia,Brown,male,1,12,planner,1,Virginia
+9,Sophia,Anderson,female,3,21,developer,4,Virginia
+10,Ava,Martin,male,2,15,designer,5,Ohio
+11,Noah,Jackson,male,2,5,planner,2,Michigan
+12,Noah,Brown,female,0,6,developer,5,Ohio
+13,James,Harris,male,3,8,planner,5,Florida
+14,Sophia,White,female,1,27,designer,2,Arizona
+15,Olivia,Martin,female,3,13,developer,5,Georgia
+16,Sophia,Jackson,male,0,18,developer,1,Virginia
+17,Noah,Harris,female,1,24,developer,5,New York
+18,Olivia,Harris,male,3,20,designer,1,Michigan
+19,Liam,Taylor,male,3,1,developer,3,Georgia
+20,Olivia,Smith,female,0,29,developer,4,Ohio
+21,Noah,Martin,female,2,15,developer,1,Georgia
+22,Noah,Johnson,male,2,19,developer,4,Ohio
+23,Sophia,White,female,3,11,developer,4,Florida
+24,Noah,Jackson,female,0,14,planner,5,Texas
+25,Ava,White,male,2,18,planner,3,Texas
+26,Noah,Harris,female,2,30,planner,4,New York
+27,Alex,Brown,female,3,4,developer,2,New York
+28,Sophia,Jackson,female,3,15,developer,3,Illinois
+29,Elijah,Martin,female,0,25,planner,4,Illinois
+30,James,White,male,1,23,developer,3,California
+31,Amelia,Anderson,female,3,3,developer,1,Virginia
+32,Elijah,Martin,male,1,28,designer,2,Texas
+33,James,White,female,0,7,planner,2,Georgia
+34,Sophia,Harris,male,0,26,planner,3,Georgia
+35,James,Martin,female,3,3,developer,2,Michigan
+36,Noah,Martin,male,2,21,designer,4,Michigan
+37,Alex,Jackson,female,0,17,planner,3,Florida
+38,Olivia,Johnson,male,3,7,designer,5,Michigan
+39,Ava,Taylor,male,1,24,developer,1,Georgia
+40,Sophia,Johnson,male,3,24,designer,3,Arizona
+41,Emma,Smith,male,1,1,developer,5,Texas
+42,Alex,Jackson,male,1,17,designer,2,Virginia
+43,Liam,Smith,male,3,22,developer,2,Michigan
+44,Olivia,White,female,2,27,designer,4,Florida
+45,Noah,Johnson,female,2,16,planner,1,Florida
+46,James,Taylor,male,0,25,planner,2,Illinois
+47,Sophia,Jackson,male,0,4,designer,5,Arizona
+48,Olivia,Anderson,female,3,23,planner,5,Ohio
+49,James,Martin,female,3,11,designer,3,Florida
+50,James,Anderson,male,2,5,planner,3,Georgia

@@ -1,0 +1,41 @@
+1. REST API (Representational State Transfer)
+  Webサービスやアプリケーション間でやり取りするためのインターフェイス
+  RESTはアーキテクチャのスタイルの一つ
+  HTTP(プロトコル)を活用してデータをリクエスト・送受信する
+
+  # GET: http://...com/api/v1/users // read all
+  # GET: http://...com/api/v1/users/:id // read one
+  # POST: /api/v1/users/create // create
+  # PUT: /api/v1/users/update/:id // update
+  # DELETE: /api/v1/users/delete/:id // update
+
+1. GraphQL
+  APIを通じてデータを取得・操作するためのクエリ言語
+  実行環境でもある
+
+# query: get
+# query {
+#   user() {
+#     name
+#     email
+#   }[]
+#   user(id: 1) {
+#     name
+#     email
+#   }
+# }
+# mutation: post/update/delete
+# mutation {
+#   createUser(name: "Alice", email: "")
+#   updateEmail(id: 1, email: "something@something.com")
+#   deleteUser(id: 1)
+# }
+
+GraphQL Server: GraphQL APIを提供する仕組み全般のこと
+Apollo Server: GraphQLサーバーを構築するライブラリの一つ
+  -> オーバーフェッチングやアンダーフェッチングについてはRestful APIより優れている
+Overfetching: 必要以上にデータを取得してしまうこと
+Underfetching: 必要なデータが一度のリクエストで取得できないこと
+
+- Query: Read
+- Mutation: Create, Update, Delete
