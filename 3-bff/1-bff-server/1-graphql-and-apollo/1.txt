@@ -35,7 +35,13 @@ GraphQL Server: GraphQL APIを提供する仕組み全般のこと
 Apollo Server: GraphQLサーバーを構築するライブラリの一つ
   -> オーバーフェッチングやアンダーフェッチングについてはRestful APIより優れている
 Overfetching: 必要以上にデータを取得してしまうこと
-Underfetching: 必要なデータが一度のリクエストで取得できないこと
+Underfetching: 必要なデータが一度のリクエストで取得できないこと(REST API: サーバーを何回も叩かないといけない)
 
 - Query: Read
-- Mutation: Create, Update, Delete
+- Mutation: Create, Update, Delete (Action Function)
+
+# typeDefs
+type Query { teams: [Team] } // teamsをQueryに投げたら[Team]がいくつか返ってくる
+
+# resolver
+Query: { teams: () => teams } // teamsを実行して
